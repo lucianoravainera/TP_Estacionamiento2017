@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login post</title>
+    <script type="text/javascript" src="./funciones.js"></script>
+    <link type="text/css" rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <div class="divisorLogin" id="claseLogin" style="float:left">
+        <label for="txtUsr">Email:</label><br>
+        <input type="text" name="txtUsr" id="txtUsr" placeholder="Ingrese Usuario"/><br>
+        <label for="pass">Contraseña:</label><br>
+        <input type="password" name="pass" id="pass" maxlength="20"/><br>
+        <input type="button" name="btnEnviar" id="btnEnviar" value="Sing In ->" onclick="peticionPost()"/>
+        <input type="button" name="btnLimpiar" id="btnLimpiar" value="Limpiar" onclick="limpiar()"/>
+    </div>
+</body>
+</html>

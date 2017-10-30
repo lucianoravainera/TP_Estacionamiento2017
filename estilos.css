@@ -1,0 +1,52 @@
+input[type=button]{ 
+    width: 50%;
+    background-color:green;
+    border:none;
+    border-radius:5px ;
+    color: white;
+    padding: 10px;
+    margin-top: 10px; 
+    cursor:pointer;
+}
+input[type=button]:hover{ /*HOVER cuando pasa mouse por arriba*/
+    background-color:red;
+}
+
+input[type=text]{
+    border-radius:5px ;
+    padding: 10px;
+    margin-top: 10px; 
+    margin-bottom:5px;
+    width: 50%;
+}
+input[type=password]{
+    border-radius:5px ;
+    padding: 10px;
+    margin-top: 10px; 
+    margin-bottom:5px;
+    width: 50%;
+}
+.sinError{/*Le agrega los bordes al tipo text sin error*/
+    border:1px solid grey;
+}
+.conError{
+    border:1px solid red;
+}
+.divisorLogin{
+    background-color: yellow;
+    width:50%;
+    border-radius:5px ;
+    padding: 20px;
+}
+.divisor{
+    background-color: yellow;
+    width:50%;
+    border-radius:5px ;
+    padding: 20px;
+}
+th{
+    text-align: left;
+    background-color: green;
+    color: white;
+}
+
